@@ -1,5 +1,6 @@
 let display = document.getElementById("display");
 //numbs
+let zeroN = document.getElementById("numbZero");
 let one = document.getElementById("numbOne");
 let two = document.getElementById("numbTwo");
 let three = document.getElementById("numbThree");
@@ -18,6 +19,9 @@ const minus = document.getElementById("numbMinus");
 const devide = document.getElementById("numbDevide");
 const clear = document.getElementById("numbClear");
 ////event listeners
+zeroN.addEventListener("click", function () {
+  display.value += zeroN.value;
+});
 one.addEventListener("click", function () {
   display.value += one.value;
 });
@@ -46,6 +50,7 @@ eight.addEventListener("click", function () {
 nine.addEventListener("click", function () {
   display.value += nine.value;
 });
+
 //operators
 multiply.addEventListener("click", function () {
   display.value += multiply.value;
