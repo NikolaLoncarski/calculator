@@ -1,0 +1,26 @@
+p {
+  width: 300px;
+  height: 100px;
+  font-size: 3em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 50px;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.asd {
+  height: 50px;
+  width: 50px;
+}
+#display {
+  height: 200px;
+  background-color: rgb(173, 168, 179);
+  width: 500px;
+  font-size: xx-large;
+}
